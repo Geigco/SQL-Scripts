@@ -1129,7 +1129,7 @@ BEGIN
 
 
 
-        --pring and/or execute the script
+        --print and/or execute the script
         DECLARE cr CURSOR FOR
             SELECT command FROM #output;
 
